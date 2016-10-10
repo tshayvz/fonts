@@ -63,7 +63,7 @@ fonts {
   weight: 400
   filename: "Raleway-Regular.ttf"
   post_script_name: "Raleway-Regular"
-  full_name: "Raleway Regular"
+  full_name: "Raleway"
   copyright: "Copyright (c) 2010 - 2013, Matt McInerney (matt@pixelspread.com), Pablo Impallari (impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
 }
 fonts {
@@ -165,7 +165,7 @@ fonts {
   full_name: "Raleway Black Italic"
   copyright: "Copyright (c) 2010 - 2012, Matt McInerney (matt@pixelspread.com), Pablo Impallari (impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
 }
-subsets: "menu"
-subsets: "cyrillic"
+# subsets: "cyrillic" # commented because italics do not support it yet
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "menu"
